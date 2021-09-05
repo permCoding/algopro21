@@ -10,7 +10,8 @@
 >[Стандарт PEP 8 по оформлению кода на Python](https://pythonworld.ru/osnovy/pep-8-rukovodstvo-po-napisaniyu-koda-na-python.html)  
 >Некоторые видео:  
 >1 [Арифметические и побитовые операции](https://youtu.be/gsdyjDg4w-g)  
->2 [Базовые возможности Питона](https://youtu.be/Z4JoqD-vZJY)  
+>2 [Шаг первый в изучении Питона](https://youtu.be/Z4JoqD-vZJY)  
+>3 [Шаг второй в изучении Питона](https://youtu.be/CeIJqd1spDk)  
 
 ---
 
