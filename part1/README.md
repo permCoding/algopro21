@@ -1,9 +1,10 @@
-# программирование  
+# программирование - ПИб-1, ПИнб-1  
 ## учебный год 2021 - осень  
   
 ---  
   
->[Рейтинг группы](https://docs.google.com/spreadsheets/d/1pUwkI5phMmji5xnegulpbJtcoNUg2s9QWh5CFuRQ3YE/edit?usp=sharing)  
+>[Рейтинг группы ПИб-1](https://docs.google.com/spreadsheets/d/1FhLiFwJTjjfBdlUZKR8naXp9SjxTs7qLObPK_XH54s0/edit?usp=sharing)  
+>[Рейтинг группы ПИнб-1](https://docs.google.com/spreadsheets/d/1LWQTnpxa9zfqvRoPEYdkHC1g3CEjIarkeZnc-pNkkRg/edit?usp=sharing)  
 >[Контрольные работы на Степике](https://stepik.org/64867/)  
 >[Лабораторки - ПРАКТИКУМ](https://pcoding.ru/pdf/PythonJunior.pdf)  
 >[Вопросы для собеседования по дисциплине](questions.md)  
