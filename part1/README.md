@@ -40,12 +40,27 @@
 [Рейтинг языков программирования](https://tiobe.com/tiobe-index/)  
 [Блокнот Лекция 1, 2 - Синтаксис языка](https://colab.research.google.com/drive/1Lt59yQHjRePtOk7ZTOgK4tsLhvOJQvzc?usp=sharing)  
 
+---
+
+**Лекция 3, 4 - __.09.2020**  
+[Блокнот Лекция 3, 4 - Циклы](https://colab.research.google.com/drive/1GnrKg3Ph7AnnCq65URFJwSobHoOzAVd-?usp=sharing)  
+
 ---  
 
 **лабраб 1 - __.09.2020**
+Выполняем задания Блокнота №1  
+
+---  
+
+**лабраб 2 - __.09.2020**
 Устанавливаем и настраиваем нужное для работы  
 Работа с редактором кода  
 Тренировка решения задач  
+Выполняем задания Практикума №1 из [Учебника](https://pcoding.ru/pdf/PythonJunior.pdf)  
+
+---  
+
+**лабраб 3 - __.09.2020**
 Выполняем задания Практикума №1 из [Учебника](https://pcoding.ru/pdf/PythonJunior.pdf)  
 
 ---  
