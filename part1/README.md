@@ -43,7 +43,8 @@
 ---
 
 **Лекция 3, 4 - __.09.2020**  
-[Блокнот Лекция 3, 4 - Циклы](https://colab.research.google.com/drive/1GnrKg3Ph7AnnCq65URFJwSobHoOzAVd-?usp=sharing)  
+[Блокнот Лекция 3 - Циклы](https://colab.research.google.com/drive/1GnrKg3Ph7AnnCq65URFJwSobHoOzAVd-?usp=sharing)  
+[Блокнот Лекция 4 - Циклы](https://colab.research.google.com/drive/1gsx4upXs4kgtH_4ZeeeR09z_fVxJexq-?usp=sharing)  
 
 ---  
 
