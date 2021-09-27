@@ -1,0 +1,11 @@
+<!DOCTYPE AFC>
+<algorithm version="1.2">
+  <branch>
+    <io vars="n"/>
+    <for var="i" to="n - 1" from="0">
+      <branch>
+        <ou vars="i"/>
+      </branch>
+    </for>
+  </branch>
+</algorithm>

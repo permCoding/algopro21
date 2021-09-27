@@ -1,0 +1,13 @@
+<!DOCTYPE AFC>
+<algorithm version="1.2">
+  <branch>
+    <io vars="n"/>
+    <assign src="0" dest="i"/>
+    <post cond="i &lt; n">
+      <branch>
+        <ou vars="i"/>
+        <assign src="i + 1" dest="i"/>
+      </branch>
+    </post>
+  </branch>
+</algorithm>
