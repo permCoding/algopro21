@@ -18,6 +18,7 @@
 ### Дистанционные занятия тут:  
 * [BBB5](https://bbb5.psaa.ru/b/and-jxn-mr6)  
 * [BBB](https://bbb.psaa.ru/b/and-jca-drk)  
+* [BBB6](https://bbb6.psaa.ru/b/j46-s4j-srl-tn2)  
 * [Zoom](https://us04web.zoom.us/j/6931731236?pwd=T1lNamFoMjJtMHlSbWVKZHF2d3Qwdz09)  
 * [Discord](https://discord.gg/ZK4kgdn)  
 
