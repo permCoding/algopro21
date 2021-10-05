@@ -69,7 +69,7 @@
 [Лекция 11, 12 - Файлы]()  
 
 [Лекция 13, 14 - Коллекции]()  
-dict, set, tuple, list
+> dict, set, tuple, list  
 
 ---  
 
