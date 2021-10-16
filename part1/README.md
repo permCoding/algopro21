@@ -33,19 +33,19 @@
 
 ---
 
-[Блокнот Лекция 1, 2 - Синтаксис языка](https://colab.research.google.com/drive/1Lt59yQHjRePtOk7ZTOgK4tsLhvOJQvzc?usp=sharing)  
+[Блокнот Лекция 01, 02 - Синтаксис языка](https://colab.research.google.com/drive/1Lt59yQHjRePtOk7ZTOgK4tsLhvOJQvzc?usp=sharing)  
 > Обсуждаем языки программирования, сравниваем js, cs, py  
 > Структурное программирование  
 > Переменные, структурные операторы, Ветвление, Функции  
 > [Рейтинг языков программирования](https://tiobe.com/tiobe-index/)  
 
-[Блокнот Лекция 3 - Циклы](https://colab.research.google.com/drive/1GnrKg3Ph7AnnCq65URFJwSobHoOzAVd-?usp=sharing)  
+[Блокнот Лекция 03 - Циклы](https://colab.research.google.com/drive/1GnrKg3Ph7AnnCq65URFJwSobHoOzAVd-?usp=sharing)  
 > for, while, else в циклах  
 
-[Блокнот Лекция 4 - Строки](https://colab.research.google.com/drive/1gsx4upXs4kgtH_4ZeeeR09z_fVxJexq-?usp=sharing)  
+[Блокнот Лекция 04 - Строки](https://colab.research.google.com/drive/1gsx4upXs4kgtH_4ZeeeR09z_fVxJexq-?usp=sharing)  
 > chr, ord, срезы, обработка циклами, кодирование  
 
-[Блокнот Лекция 5, 6 - Алгоритмы Часть 1: Блок-схемы алгоритмов](https://colab.research.google.com/drive/1rULbhDdA8tGw8URS2O20--y1YqSeQjZa?usp=sharing)  
+[Блокнот Лекция 05, 06 - Алгоритмы Часть 1: Блок-схемы алгоритмов](https://colab.research.google.com/drive/1rULbhDdA8tGw8URS2O20--y1YqSeQjZa?usp=sharing)  
 [ГОСТ 19.701-90 СХЕМЫ АЛГОРИТМОВ, ПРОГРАММ ДАННЫХ И СИСТЕМ](https://pcoding.ru/gost/GOST_19.701-90_%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B.pdf)  
 > понятие алгоритма
 > способы отображения алгоритмов
@@ -54,14 +54,21 @@
 > алгоритмы сортировки  
 > рекурсивные алгориты  
 
-[Лекция 7, 8 - Файлы](https://github.com/permCoding/algopro21/tree/main/part1/Lections/lection-07-08-%D1%84%D0%B0%D0%B9%D0%BB%D1%8B)  
+[Лекция 07, 08 - Файлы](https://github.com/permCoding/algopro21/tree/main/part1/Lections/lection-07-08-%D1%84%D0%B0%D0%B9%D0%BB%D1%8B)  
 Блокнота нет - по ссылке в папке Лекции находятся примеры программ с Лекции с комментариями  
 > как прочитать и как записать файл  
 > сортировка  
 > списки и кортежи  
 > filter, map  
 
+[Блокнот Лекция 09, 10 - Коллекции](https://colab.research.google.com/drive/1oBS1neHRZUzgXjRPLneUXmDB3zdjRpMq?usp=sharing)  
+> list, tuple, set, dict   
+
 ---  
+
+--- 
+
+Остальное будет в следующем семестре:  
 
 [Блокнот Лекция 9, 10 - Алгоритмы Часть 2: Сложность алгоритмов, алгоритмы сортировки](https://colab.research.google.com/drive/1iFjs5ufpdgjq6wOBbd98pj-J23JKEslr?usp=sharing)  
 > сложность алгоритмов
@@ -74,12 +81,6 @@
 это будет позже:  
 [Лекция 11, 12 - Функциональное программирование]()  
 > filter, map, reduce  
-
-[Лекция 13, 14 - Коллекции]()  
-> dict, set, tuple, list  
-
----  
-
 > сравнение return и yield
 > локальные и глобальные переменные
 
