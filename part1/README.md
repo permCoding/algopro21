@@ -46,6 +46,7 @@
 > chr, ord, срезы, обработка циклами, кодирование  
 
 [Блокнот ТЕМА 04 - Алгоритмы Часть 1: Блок-схемы алгоритмов](https://colab.research.google.com/drive/1rULbhDdA8tGw8URS2O20--y1YqSeQjZa?usp=sharing)  
+> [Видео-запись Лекции](https://bbb6.psaa.ru/playback/presentation/2.3/5923e2ed02a74e7b4d531d5d9ea23446bfaca0d7-1635143960416)  
 > [ГОСТ 19.701-90 СХЕМЫ АЛГОРИТМОВ, ПРОГРАММ ДАННЫХ И СИСТЕМ](https://pcoding.ru/gost/GOST_19.701-90_%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B.pdf)  
 > [Пример решения задания по построению алгоритма функции перевода из десятичной в двоичную](https://drive.google.com/file/d/1uDDvDaY-x4-i0TAUyipUkgOT4D7R_zgV/view?usp=sharing)  
 > понятие алгоритма
