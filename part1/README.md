@@ -42,12 +42,12 @@
 [Блокнот ТЕМА 02 - Циклы](https://colab.research.google.com/drive/1GnrKg3Ph7AnnCq65URFJwSobHoOzAVd-?usp=sharing)  
 > for, while, else в циклах  
 
-[Блокнот Лекция 04 - Строки](https://colab.research.google.com/drive/1gsx4upXs4kgtH_4ZeeeR09z_fVxJexq-?usp=sharing)  
+[Блокнот ТЕМА 03 - Строки](https://colab.research.google.com/drive/1gsx4upXs4kgtH_4ZeeeR09z_fVxJexq-?usp=sharing)  
 > chr, ord, срезы, обработка циклами, кодирование  
 
 [Блокнот ТЕМА 04 - Алгоритмы Часть 1: Блок-схемы алгоритмов](https://colab.research.google.com/drive/1rULbhDdA8tGw8URS2O20--y1YqSeQjZa?usp=sharing)  
-[ГОСТ 19.701-90 СХЕМЫ АЛГОРИТМОВ, ПРОГРАММ ДАННЫХ И СИСТЕМ](https://pcoding.ru/gost/GOST_19.701-90_%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B.pdf)  
-[Пример решения задания по построению алгоритма функции перевода из десятичной в двоичную](https://drive.google.com/file/d/1uDDvDaY-x4-i0TAUyipUkgOT4D7R_zgV/view?usp=sharing)  
+> [ГОСТ 19.701-90 СХЕМЫ АЛГОРИТМОВ, ПРОГРАММ ДАННЫХ И СИСТЕМ](https://pcoding.ru/gost/GOST_19.701-90_%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B.pdf)  
+> [Пример решения задания по построению алгоритма функции перевода из десятичной в двоичную](https://drive.google.com/file/d/1uDDvDaY-x4-i0TAUyipUkgOT4D7R_zgV/view?usp=sharing)  
 > понятие алгоритма
 > способы отображения алгоритмов
 > блок-схемы алгоритмов  
