@@ -55,6 +55,7 @@
 > системы счисления, алгоритмы перевода  
 
 [ТЕМА 05 - Текстовые файлы](https://github.com/permCoding/algopro21/tree/main/part1/Lections/lection-07-08-%D1%84%D0%B0%D0%B9%D0%BB%D1%8B)  
+[Видео-запись Лекции](https://bbb6.psaa.ru/playback/presentation/2.3/5923e2ed02a74e7b4d531d5d9ea23446bfaca0d7-1636360681859)  
 Блокнота нет - по ссылке в папке Лекции находятся примеры программ с Лекции с комментариями  
 [Учебное пособие "Текстовые файлы" в pdf формате и задания к Лабораторной работе по этой теме](https://github.com/permCoding/algopro21/blob/main/part1/Lections/lection-07-08-%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/lection_files/PythonJunior_2021_files.pdf)  
 [Директория с примерами программ к этому учебному пособию](https://github.com/permCoding/algopro21/tree/main/part1/Lections/lection-07-08-%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/lection_files)  
