@@ -69,6 +69,8 @@
 > list, tuple, set, dict  
 > array в Питоне  
 
+[Блокнот ТЕМА 07 - Классы и объекты](https://colab.research.google.com/drive/1VbTLrLMvP-f1om739d-1wFqu5IAaJ4xQ?usp=sharing)  
+
 ---  
 
 --- 
