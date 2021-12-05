@@ -11,19 +11,18 @@
 
 ---  
 
-[Блокнот 01 - Диалоги и ветвления](https://colab.research.google.com/drive/1Lt59yQHjRePtOk7ZTOgK4tsLhvOJQvzc?usp=sharing)  
+[Блокнот - Диалоги и ветвления](https://colab.research.google.com/drive/1Lt59yQHjRePtOk7ZTOgK4tsLhvOJQvzc?usp=sharing)  
 
-[Блокнот 02 - Циклы](https://colab.research.google.com/drive/1GnrKg3Ph7AnnCq65URFJwSobHoOzAVd-?usp=sharing)  
+[Блокнот - Циклы](https://colab.research.google.com/drive/1GnrKg3Ph7AnnCq65URFJwSobHoOzAVd-?usp=sharing)  
 
-[Блокнот 03 - Строки](https://colab.research.google.com/drive/1gsx4upXs4kgtH_4ZeeeR09z_fVxJexq-?usp=sharing)  
+[Блокнот - Строки](https://colab.research.google.com/drive/1gsx4upXs4kgtH_4ZeeeR09z_fVxJexq-?usp=sharing)  
 
-[Блокнот 04 - Алгоритмы](https://colab.research.google.com/drive/1rULbhDdA8tGw8URS2O20--y1YqSeQjZa?usp=sharing)  
+[Блокнот - Алгоритмы](https://colab.research.google.com/drive/1rULbhDdA8tGw8URS2O20--y1YqSeQjZa?usp=sharing)  
 > [Видео-запись Лекции](https://bbb6.psaa.ru/playback/presentation/2.3/5923e2ed02a74e7b4d531d5d9ea23446bfaca0d7-1635143960416)  
 > [Пример решения задания по построению алгоритма функции перевода из десятичной в двоичную](https://drive.google.com/file/d/1uDDvDaY-x4-i0TAUyipUkgOT4D7R_zgV/view?usp=sharing)  
 
 [Учебное пособие "Текстовые файлы" в pdf формате и задания к Лабораторной работе по этой теме](https://github.com/permCoding/algopro21/blob/main/part1/Lections/lection-07-08-%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/lection_files/PythonJunior_2021_files.pdf)  
-
-[Видео-запись Лекции](https://bbb6.psaa.ru/playback/presentation/2.3/5923e2ed02a74e7b4d531d5d9ea23446bfaca0d7-1636360681859)  
+> [Видео-запись Лекции](https://bbb6.psaa.ru/playback/presentation/2.3/5923e2ed02a74e7b4d531d5d9ea23446bfaca0d7-1636360681859)  
 
 [Блокнот - Коллекции](https://colab.research.google.com/drive/1oBS1neHRZUzgXjRPLneUXmDB3zdjRpMq?usp=sharing)  
 
