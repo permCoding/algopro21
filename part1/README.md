@@ -1,7 +1,7 @@
 # программирование - ПИб-1, ПИнб-1  
 ## учебный год 2021 - осень  
   
-[**СПИСОК ЛАБОРАТОРОК ДЛЯ ПИнб-1**](https://github.com/permCoding/algopro21/tree/main/part1/LabRab)  
+[**СПИСОК ЛАБОРАТОРОК для ПИб-1 и для ПИнб-1**](https://github.com/permCoding/algopro21/tree/main/part1/LabRab)  
 
 ---  
   
