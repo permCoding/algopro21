@@ -10,7 +10,6 @@
 >[Рейтинг группы ПИнб-1](https://docs.google.com/spreadsheets/d/1LWQTnpxa9zfqvRoPEYdkHC1g3CEjIarkeZnc-pNkkRg/edit?usp=sharing)  
 >[Контрольные работы на Степике](https://stepik.org/64867/)  
 >[Лабораторки - ПРАКТИКУМ](https://pcoding.ru/pdf/PythonJunior.pdf)  
->[Вопросы для собеседования по дисциплине](questions.md)  
 >[Стандарт PEP 8 по оформлению кода на Python](https://pythonworld.ru/osnovy/pep-8-rukovodstvo-po-napisaniyu-koda-na-python.html)  
 >Некоторые видео:  
 >1 [Арифметические и побитовые операции](https://youtu.be/gsdyjDg4w-g)  
