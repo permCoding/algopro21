@@ -2,6 +2,7 @@
 ## учебный год 2021 - осень  
   
 [**СПИСОК ЛАБОРАТОРОК для ПИб-1 и для ПИнб-1**](https://github.com/permCoding/algopro21/tree/main/part1/LabRab)  
+[**ВОПРОСЫ ДЛЯ ЭКЗАМЕНА**](https://github.com/permCoding/algopro21/blob/main/part1/questions.md)  
 
 ---  
   
