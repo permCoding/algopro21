@@ -4,10 +4,12 @@ from PIL import Image
 from os import path
 import glob
 
+dir = "./images"
+fltr = "*.jpg"
 size = 64, 64
 
-for input in glob.glob("./images/*.jpg"):
-    file, ext = path.splitext(input)
-    with Image.open(input) as img:
+for item in glob.glob("/".join([dir,fltr])):
+    file, ext = path.splitext(item)
+    with Image.open(item) as img:
         img.thumbnail(size)
         img.save(file + ".png", "png")

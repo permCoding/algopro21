@@ -6,15 +6,11 @@ import glob
 
 size = 64, 64
 
-inp_dir = "./images"
 out_dir = "./mini"
-imgs_filter = "*.jpg"
-imgs_dir = inp_dir + "/" + imgs_filter
 
-for input in glob.glob(imgs_dir):
-    file, ext = path.splitext(input)
+for item in glob.glob("./images/*.jpg"):
+    file, ext = path.splitext(item)
     file = out_dir + "/" + file.split('\\')[-1]
-    # print(file)
-    with Image.open(input) as img:
+    with Image.open(item) as img:
         img.thumbnail(size)
         img.save(file + ".png", "png")
