@@ -11,7 +11,7 @@ for y in range(height):
         r, g, b = img.getpixel((x, y))
         r -= y * ky
         r = 0 if r < 0 else int(r)
-        g -= y * ky
+        g -= y/9 * ky
         g = 0 if g < 0 else int(g)
         b += y/6 * ky
         b = 255 if b > 255 else int(b)

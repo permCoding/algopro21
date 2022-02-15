@@ -2,9 +2,10 @@
 
 from PIL import Image
 
-img = Image.open("./images/color.jpg")
+img = Image.open("./mini/color.png")
 
-print(img.size)
+print(img.size, img.format)
+
 width, height = img.size
 
 point1 = (0, 0)

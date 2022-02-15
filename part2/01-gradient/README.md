@@ -1,5 +1,7 @@
 ## gradient  
 
+[pillow](https://pillow.readthedocs.io/en/stable/handbook/tutorial.html)  
+
 **Л/Р 1 - __.02.22**  
 
 > [Библиотека Pillow](https://github.com/python-pillow/Pillow/)  

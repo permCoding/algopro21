@@ -3,7 +3,7 @@
 
 from PIL import Image
 
-img = Image.open("./images/white.jpg")
+img = Image.open("./images/color.jpg")
 
 point = (0, 0)
 
