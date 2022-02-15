@@ -2,7 +2,7 @@
 
 from PIL import Image, ImageDraw
 
-with Image.open("./white.jpg") as img:
+with Image.open("./images/white.jpg") as img:
 
     draw = ImageDraw.Draw(img)
     draw.line((0, 0) + img.size, fill=128)

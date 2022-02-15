@@ -13,6 +13,10 @@ filtred = filter(lambda item: item.endswith('.jpg'), files)
 
 # print('\n'.join(list(filtred)))  # если включить, то filtred исчерпается
 
+# f = open('tmp.txt', 'w')
+# f.write(list(filtred)[-1])
+# f.close()
+
 # обработать кириллицу
 coding = map(lambda item: item.encode('cp1251').decode('1251'), filtred)
 
@@ -24,4 +28,4 @@ lines = sorted(map(lambda item: item + '\n', coding), reverse=True)
 with open('files.txt', 'w', encoding='utf-8') as f:
     f.writelines(lines)
 
-# print(type(u))
+# # print(type(u))

@@ -14,7 +14,8 @@ for y in range(height):
         g -= y * ky
         g = 0 if g < 0 else int(g)
         b -= y * ky
-        b = 0 if b < 0 else int(b)
+        # b = 0 if b < 0 else int(b)
+        b = max(0, int(b))
         img.putpixel((x, y), (r, g, b))
 
 img.show()

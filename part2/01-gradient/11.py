@@ -9,13 +9,15 @@ img = Image.open("./images/white444.jpg")
 
 width, height = img.size
 
+print(width, height)
+
 kx = 256 / width # добавим коэффициент для пересчёта
 ky = 256 / height # добавим коэффициент для пересчёта
 
 for y in range(height):
     for x in range(width):
-        # clr = int(ky * y)
-        clr = int(kx * x)
+        clr = int(ky * y)
+        # clr = int(kx * x)
         r, g, b = clr, clr, clr
         img.putpixel((x, y), (r, g, b))
 

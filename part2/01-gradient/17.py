@@ -13,6 +13,7 @@ def get_color_invert(color):
     b = 255 - b
     return (r, g, b)
 
+
 name_file = 'белка.jpg'
 path = './images/' + name_file
 img = Image.open(path)
