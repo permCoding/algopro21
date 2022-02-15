@@ -3,8 +3,8 @@
 
 from PIL import Image
 
-img1 = Image.open("./images/color.png")
-img2 = Image.open("./images/белка.png")
+img1 = Image.open("./mini/color.png")
+img2 = Image.open("./mini/белка.png")
 
 img3 = Image.blend(img1, img2, .5)
 
