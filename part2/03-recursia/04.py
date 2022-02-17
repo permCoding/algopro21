@@ -1,5 +1,8 @@
+# очередь
+
 from os import listdir
 from os.path import isfile, isdir, join
+
 
 results = []
 dirs = ["."]  # текущая папка

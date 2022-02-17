@@ -1,3 +1,5 @@
+# стандартное решение
+
 from os import listdir, getcwd, walk
 from os.path import isfile, join, isdir
 
