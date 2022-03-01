@@ -5,6 +5,7 @@ ork1 = Ork(50)
 ork2 = Ork()
 ork3 = copy(ork2)  # поверхностное копирование
 
+# с простыми типами данных
 print(ork1.id)
 print(ork1.power)
 

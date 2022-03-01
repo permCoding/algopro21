@@ -9,6 +9,7 @@ print(test1.litera)
 
 test2 = copy(test1)  # поверхностное копирование
 
+# со сложными типами данных
 test2.litera = "zzz"
 test2.point.x = -666
 test2.array[0] = 99

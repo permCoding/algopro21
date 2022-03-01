@@ -1,4 +1,3 @@
-from operator import attrgetter
 from utils import Ork
 
 
@@ -11,6 +10,6 @@ lst.append(Ork(75))
 for ork in lst:
     print(ork)
 
-print(lst[0].id)
+print(lst[0].id)  # атрибут объекта
 print(lst[-1].id)
-print(Ork.count)
+print(Ork.count)  # переменная класса

@@ -7,7 +7,7 @@ print(test1.array)
 print(test1.point)
 print(test1.litera)
 
-test2 = deepcopy(test1)  # поверхностное копирование
+test2 = deepcopy(test1)  # глубокое копирование
 
 test2.litera = "zzz"
 test2.point.x = -666

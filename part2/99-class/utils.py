@@ -26,7 +26,7 @@ class Warlock(object):
     # атрибуты объекта self.xxx
     def __init__(self, power=100):
         Warlock.count += 1
-        self.__id = Ork.count
+        self.__id = Warlock.count
         self.__power = power
     def __str__(self):
         return f"{self.__id}\t{self.__power}"
@@ -34,7 +34,7 @@ class Warlock(object):
         return self.__id
     def get_power(self):
         return self.__power
-    def set_id(self, power=100):
+    def set_power(self, power=100):
         self.__power = power
 
 
