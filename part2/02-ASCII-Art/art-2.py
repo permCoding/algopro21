@@ -3,12 +3,12 @@
 from PIL import Image
 
 
-def get_image_resize(img, height_new):
-    ''' изменить размеры рисунка '''    
-    width, height = img.size  # исходные размеры рисунка
-    width_new = width // (height//height_new)
-    img_new = img.resize((width_new, height_new), Image.ANTIALIAS)
-    return img_new
+def get_image_resize(_img, height_new):
+    """ изменить размеры рисунка """
+    _width, _height = _img.size  # исходные размеры рисунка
+    width_new = _width // (_height // height_new)
+    img_res = img.resize((width_new, height_new), Image.ANTIALIAS)
+    return img_res
 
 
 name_image = 'ждун.jpeg'

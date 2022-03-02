@@ -3,11 +3,11 @@
 from PIL import Image
 
 
-def get_image_resize(img, height_new):    
-    width, height = img.size  # исходные размеры рисунка
-    width_new = width // (height//height_new)
-    img_new = img.resize((width_new, height_new), Image.ANTIALIAS)
-    return img_new
+def get_image_resize(_img, height_new):
+    """ изменить размеры рисунка """
+    _width, _height = _img.size  # исходные размеры рисунка
+    width_new = _width // (_height // height_new)
+    return img.resize((width_new, height_new), Image.ANTIALIAS)
 
 
 name_image = 'ждун.jpeg'
@@ -16,7 +16,7 @@ img_new = get_image_resize(img, 50)  # привести к размеру 50 п�
 
 symbols = ' .+#'  # 1 тут добавить больше градаций яркости и подобрать свои символы
 
-# 2 тут код убрать в функцию get_image_symbols получение строки символов с картинкой
+# 2 тут код убрать в метод get_image_symbols получение строки символов с картинкой
 count = len(symbols)
 full = 256 + 256 + 256  # максимальное значение
 segment = full // count  # длина сегмента
@@ -34,3 +34,5 @@ for y in range(height):
 
 # 3 тут добавить вывод в текстовый файл
 print(result)
+
+# на основе этого кода сделать класс и поместить его в отдельный модуль
