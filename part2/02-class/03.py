@@ -4,7 +4,6 @@ class Person(object):
        self.age = age
 
 
-
 men2 = Person("Иванов Иван Иванович", 19)
 men3 = Person("Ганс Христиан Андерсен", 39)
 men1 = Person("Ilon", 51)

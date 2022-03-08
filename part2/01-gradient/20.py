@@ -9,11 +9,10 @@ kx = 256 / width
 
 for y in range(height):
     for x in range(width):
-        pos = abs(x-y)
-        r = int(pos*ky)
-        g = int(pos*ky)
-        b = int(pos*ky)
+        r = int(y * ky)
+        g = int(x * kx)
+        b = int(255 - (y*ky))
         img.putpixel((x, y), (r, g, b))
 
-img.save('./gradients/_' + '97.jpg')
+img.save('./gradients/_' + '98.jpg')
 img.show()

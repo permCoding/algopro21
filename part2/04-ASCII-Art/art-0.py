@@ -4,7 +4,7 @@
 from PIL import Image
 
 
-def get_image_resize(img, k):    
+def get_image_resize(img, k):
     width, height = img.size  # исходные размеры рисунка
     width *= k; height *= k
     img_new = img.resize((int(width), int(height)), Image.ANTIALIAS)

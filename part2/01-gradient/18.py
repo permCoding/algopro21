@@ -1,18 +1,29 @@
-# придумаем градиентную заливку
+# инвертируем цвет у нескольких пикселей
 
 from PIL import Image
 
-img = Image.open("./images/white.jpg")
+
+def get_color_invert(color):
+    '''
+    инвертировать цвет пикселя
+    '''
+    r, g, b = color
+    r = 255 - r
+    g = 255 - g
+    b = 255 - b
+    return (r, g, b)
+
+
+name_file = 'белка.jpg'
+path = './images/' + name_file
+img = Image.open(path)
 width, height = img.size
-ky = 256 / height
-kx = 256 / width
 
 for y in range(height):
     for x in range(width):
-        r = int(y * ky)
-        g = int(x * kx)
-        b = 255
-        img.putpixel((x, y), (r, g, b))
+        if y > x: # левый нижний
+            color = img.getpixel((x, y))
+            img.putpixel((x, y), get_color_invert(color))
 
-img.save('./gradients/_' + '99.jpg')
+img.save('./gradients/_' + 'белка.jpg')
 img.show()

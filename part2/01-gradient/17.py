@@ -1,29 +1,20 @@
-# инвертируем цвет у нескольких пикселей
+# понизим неравномерно яркость у всех пикселей
 
 from PIL import Image
 
-
-def get_color_invert(color):
-    '''
-    инвертировать цвет пикселя
-    '''
-    r, g, b = color
-    r = 255 - r
-    g = 255 - g
-    b = 255 - b
-    return (r, g, b)
-
-
-name_file = 'белка.jpg'
-path = './images/' + name_file
-img = Image.open(path)
+img = Image.open("./images/белка.jpg")
 width, height = img.size
+ky = 256 / height
 
 for y in range(height):
     for x in range(width):
-        if y > x: # левый нижний
-            color = img.getpixel((x, y))
-            img.putpixel((x, y), get_color_invert(color))
+        r, g, b = img.getpixel((x, y))
+        r -= y * ky
+        r = 0 if r < 0 else int(r)
+        g -= y/9 * ky
+        g = 0 if g < 0 else int(g)
+        b += y/6 * ky
+        b = 255 if b > 255 else int(b)
+        img.putpixel((x, y), (r, g, b))
 
-img.save('./gradients/_' + 'белка.jpg')
 img.show()

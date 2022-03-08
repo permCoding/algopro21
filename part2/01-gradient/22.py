@@ -10,8 +10,8 @@ kx = 256 / width
 for y in range(height):
     for x in range(width):
         pos = abs(x-y)
-        r = int(pos*ky)
-        g = int(pos*ky)
+        r = 127 - int(pos*ky/2)
+        g = 255 - int(pos*ky)
         b = int(pos*ky)
         img.putpixel((x, y), (r, g, b))
 

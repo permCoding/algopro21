@@ -11,8 +11,8 @@ for y in range(height):
     for x in range(width):
         r = int(y * ky)
         g = int(x * kx)
-        b = int(255 - (y*ky))
+        b = 255
         img.putpixel((x, y), (r, g, b))
 
-img.save('./gradients/_' + '98.jpg')
+img.save('./gradients/_' + '99.jpg')
 img.show()

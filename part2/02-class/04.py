@@ -6,7 +6,6 @@ class Person(object):
         return self.name.split()[-1]
 
 
-
 men2 = Person("Иван Иванович Иванов", 19)
 men3 = Person("Ганс Христиан Андерсен", 39)
 men1 = Person("Лев Николаевич Толстой", 51)

@@ -1,4 +1,4 @@
-# понизим неравномерно яркость у всех пикселей
+# понизим градиентно яркость у всех пикселей
 
 from PIL import Image
 
@@ -11,10 +11,11 @@ for y in range(height):
         r, g, b = img.getpixel((x, y))
         r -= y * ky
         r = 0 if r < 0 else int(r)
-        g -= y/9 * ky
+        g -= y * ky
         g = 0 if g < 0 else int(g)
-        b += y/6 * ky
-        b = 255 if b > 255 else int(b)
+        b -= y * ky
+        # b = 0 if b < 0 else int(b)
+        b = max(0, int(b))
         img.putpixel((x, y), (r, g, b))
 
 img.show()
