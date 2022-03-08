@@ -23,7 +23,7 @@
 | 1 | 11 | 8 | Зачёт |
 | 2 | 14 | 11 | Экзамен |
 
-[Вопросы экзамена](https://github.com/permCoding/algopro21/blob/main/part1/questions.md))  
+[Вопросы экзамена](https://github.com/permCoding/algopro21/blob/main/part1/questions.md)  
 
 ---
 
