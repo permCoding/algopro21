@@ -4,9 +4,9 @@ from PIL import Image
 
 
 def get_color_invert(color):
-    '''
+    """
     инвертировать цвет пикселя
-    '''
+    """
     r, g, b = color
     r = 255 - r
     g = 255 - g

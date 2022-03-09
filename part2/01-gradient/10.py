@@ -9,6 +9,7 @@ from PIL import Image
 img = Image.open("./images/white.jpg")
 
 width, height = img.size
+print(width, height)
 
 for y in range(height):
     for x in range(width):

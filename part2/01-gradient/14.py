@@ -9,9 +9,9 @@ width, height = img.size
 for y in range(height):
     for x in range(width):
         r, g, b = img.getpixel((x, y))
-        r //= 2; 
-        g //= 2; 
-        b //= 2; 
+        r //= 2;  # r = int(r / 2)
+        g //= 2;  # g = g // 2
+        b //= 5; 
         color = (r, g, b)
         img.putpixel((x, y), color)
 
