@@ -35,7 +35,14 @@
 ---  
 
 ```
-
+* как установить в linux pip
+sudo apt update
+sudo apt install python3-pip
+* проверить версию pip
+pip3 --version
+как установить в linux библиотеку pillow
+python3 -m pip install --upgrade pip
+python3 -m pip install --upgrade Pillow
 ```
 
 ---  
