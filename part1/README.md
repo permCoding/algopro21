@@ -8,11 +8,8 @@
 
 ---  
   
->[Рейтинг группы ПИб-1](https://docs.google.com/spreadsheets/d/1FhLiFwJTjjfBdlUZKR8naXp9SjxTs7qLObPK_XH54s0/edit?usp=sharing)  
->[Рейтинг группы ПИнб-1](https://docs.google.com/spreadsheets/d/1LWQTnpxa9zfqvRoPEYdkHC1g3CEjIarkeZnc-pNkkRg/edit?usp=sharing)  
 >[Контрольные работы на Степике](https://stepik.org/64867/)  
 >[Лабораторки - ПРАКТИКУМ](https://pcoding.ru/pdf/PythonJunior.pdf)  
->[Стандарт PEP 8 по оформлению кода на Python](https://pythonworld.ru/osnovy/pep-8-rukovodstvo-po-napisaniyu-koda-na-python.html)  
 >Некоторые видео:  
 >1 [Арифметические и побитовые операции](https://youtu.be/gsdyjDg4w-g)  
 >2 [Шаг первый в изучении Питона](https://youtu.be/Z4JoqD-vZJY)  

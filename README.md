@@ -23,7 +23,10 @@
 | 1 | 11 | 8 | Зачёт |
 | 2 | 14 | 11 | Экзамен |
 
-[Вопросы экзамена](https://github.com/permCoding/algopro21/blob/main/part1/questions.md)  
+> [Вопросы экзамена](https://github.com/permCoding/algopro21/blob/main/part1/questions.md)  
+>[Рейтинг группы ПИб-1](https://docs.google.com/spreadsheets/d/1FhLiFwJTjjfBdlUZKR8naXp9SjxTs7qLObPK_XH54s0/edit?usp=sharing)  
+>[Рейтинг группы ПИнб-1](https://docs.google.com/spreadsheets/d/1LWQTnpxa9zfqvRoPEYdkHC1g3CEjIarkeZnc-pNkkRg/edit?usp=sharing)  
+>[Стандарт PEP 8 по оформлению кода на Python](https://pythonworld.ru/osnovy/pep-8-rukovodstvo-po-napisaniyu-koda-na-python.html)  
 
 ---
 
