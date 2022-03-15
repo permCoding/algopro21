@@ -1,5 +1,7 @@
 # ASCII-Art  
 
+Эти же программы, но в replit - https://replit.com/@pCoding/ascii-art  
+
 ---  
 
 **Л/Р 2 - __.03.22**  
