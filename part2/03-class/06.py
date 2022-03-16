@@ -5,8 +5,8 @@ class Person(object):
     def __init__(self, name, age):
         self.name = name
         self.age = age
-    def get_family(self):
-        return self.name.split()[-1]
+    def get_family(self, index):
+        return self.name.split()[index]
 
 
 men1 = Person("Лев Николаевич Толстой", 51)

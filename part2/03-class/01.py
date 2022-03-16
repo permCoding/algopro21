@@ -8,14 +8,13 @@ persons = [
 ]
 
 def get_par(obj):
-    pass
-    pass
-    return -obj[1]
+    return obj[1]
 
-# persons.sort(key=get_par)  # сортирует на месте
+# func = lambda obj: obj[1]
 
-sort_persons = sorted(persons, key=lambda obj: obj[1], reverse=True)  # возвращает новый отсортированный список
+# persons.sort(key=get_par, reverse=True)  # сортирует на месте
 
+persons = sorted(persons, key=lambda obj: obj[1])  # возвращает новый отсортированный список
 
-for person in sort_persons:
+for person in persons:
     print(person[0].ljust(25, ' '), person[1])

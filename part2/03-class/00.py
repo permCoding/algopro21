@@ -9,4 +9,4 @@ persons = [
 ]
 
 for person in persons:
-    print(person[0], '\t', person[1])
+    print(person[0], '-', person[1])
