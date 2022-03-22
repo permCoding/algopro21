@@ -12,8 +12,10 @@ x0, y0 = pole, h-pole
 xm, ym = w-pole, pole
 
 window = tk.Tk()
+
 canvas = tk.Canvas(window, width=w, height=h, bg='#fda')
 canvas.pack()
+
 axes(x0, y0, xm, ym, 'blue')
 
 for i in range(n):

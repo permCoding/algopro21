@@ -17,3 +17,15 @@ class Line:
         k1 = self.p1.x - self.p2.x
         k2 = self.p1.y - self.p2.y
         return round(math.pow((k1**2 + k2**2), .5), 3) 
+
+
+class Student:
+    def __init__(self, id, name, group):
+        self.id = int(id)
+        self.group = group.strip()
+        lst = name.split()
+        self.first_name = lst[1]
+        self.second_name = lst[0]
+        self.other_name = lst[2]
+    def __str__(self):
+        return f"{self.second_name} {self.first_name}"

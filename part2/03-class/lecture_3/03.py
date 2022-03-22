@@ -22,11 +22,11 @@ def set_ovals(lst):
 
 def get_list(n, rad, pole):
     lst = []
-    for i in range(n):
+    for _ in range(n):
         x = rnd.randint(pole,w-pole)
         y = rnd.randint(pole,h-pole)
         r = rnd.randint(2, rad)
-        c = ["#3A3","#33A", "#A33"][rnd.randint(0,2)]
+        c = ["#3A3","#33A","#A33"][rnd.randint(0,2)]
         lst.append(Oval(x,y,r,c))
     return lst
 
