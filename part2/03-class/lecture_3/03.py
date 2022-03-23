@@ -26,7 +26,7 @@ def get_list(n, rad, pole):
         x = rnd.randint(pole,w-pole)
         y = rnd.randint(pole,h-pole)
         r = rnd.randint(2, rad)
-        c = ["#3A3","#33A","#A33"][rnd.randint(0,2)]
+        c = ["#3A3","#55F","#A33"][rnd.randint(0,2)]
         lst.append(Oval(x,y,r,c))
     return lst
 
@@ -37,14 +37,13 @@ window = tk.Tk()
 
 canvas = tk.Canvas(window, width=w, height=h, bg='#fda')
 canvas.pack()
-
-lst = get_list(n, r, pole)
-set_ovals(lst)
-
 btn = tk.Button(
     text="Move", 
     font=("Times","12","bold"), 
     command=partial(set_move, 8))  # partial для передачи функции с параметрами
 btn.pack()
+
+lst = get_list(n, r, pole)
+set_ovals(lst)
 
 window.mainloop()

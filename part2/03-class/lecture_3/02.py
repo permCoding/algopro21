@@ -15,15 +15,14 @@ window = tk.Tk()
 
 canvas = tk.Canvas(window, width=w, height=h, bg='#fda')
 canvas.pack()
+btn = tk.Button(text="Move")  # как объекты подвинуть?
+btn.pack()
 
 axes(x0, y0, xm, ym, 'blue')
 
 for i in range(n):
-    x = rnd.randint(pole,w-pole)
-    y = rnd.randint(pole,h-pole)
+    x = rnd.randint(pole+r,w-pole-r)
+    y = rnd.randint(pole+r,h-pole-r)
     canvas.create_oval(x-r,y-r,x+r,y+r)
-
-btn = tk.Button(text="Move")  # как объекты подвинуть?
-btn.pack()
 
 window.mainloop()

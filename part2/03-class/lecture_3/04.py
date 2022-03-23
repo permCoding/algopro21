@@ -33,7 +33,7 @@ def get_list(n):
 def motion():
     if move:
         set_move()
-        window.after(100, motion)
+        window.after(88, motion)
 
 
 def start_stop():
@@ -55,9 +55,9 @@ window = tk.Tk()
 
 canvas = tk.Canvas(window, width=w, height=h, bg='#ddc')
 canvas.pack()
-
 btn_move = tk.Button(
-    text="Move", 
+    window,
+    text="СТАРТ", 
     font="12",
     width=25,
     command=start_stop)  # двигаем объекты
@@ -72,6 +72,6 @@ btn_center.pack(side=tk.LEFT, padx=10, pady=10)
 
 lst = get_list(n)
 set_ovals(lst)
-move = False
+move = False  # не движется 
 
 window.mainloop()
