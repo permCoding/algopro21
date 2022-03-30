@@ -38,8 +38,8 @@ def ex_05(lst):
 
 
 lst = listdir("./images")
-ex_01(lst)
+# ex_01(lst)
 # ex_02(lst, '.jpg')
-# ex_03(lst, '.jpg')
+ex_03(lst, '.jpg')
 # ex_04(lst, '.jpg')
 # ex_05(lst)

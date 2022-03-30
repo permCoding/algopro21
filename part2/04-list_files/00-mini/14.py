@@ -10,8 +10,8 @@ def get_files(dir):  # выбрать только файлы
 
 def get_dirs(dir):  # выбрать только директории
     lst = listdir(dir)  # и файлы и папки
-    files = [item for item in lst if isdir(join(dir, item))]
-    print('\n'.join(files))
+    dirs = [item for item in lst if isdir(join(dir, item))]
+    print('\n'.join(dirs))
 
 
 dir = "."

@@ -10,12 +10,13 @@ lst = listdir(dir)  # и файлы и папки
 files = filter(lambda item: isfile(join(dir, item)), lst)
 
 # преобразовать в кортежи
-objs = map(lambda item: (item, getsize(join(dir,item))), lst)
-
+objs = map(lambda item: (item, getsize(join(dir,item))), files)
+# for item in objs:
+#     print(item)
 # print(list(objs))
 
 # отсортировать по размеру
 lst = sorted(objs, key=lambda item: item[1], reverse=True)
 
 for item in lst:
-    print(f"{item[1]} byte\t{item[0]}")
+    print(f"{str(item[1]).rjust(12, ' ')} byte\t{item[0]}")

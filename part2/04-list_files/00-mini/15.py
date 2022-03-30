@@ -8,5 +8,7 @@ def get_files(dir):  # выбрать только файлы
 
 
 dir = "./images"
-for i, file in enumerate(get_files(dir)):
-    print(str(i+1).ljust(3, ' '), file)
+for index, file in enumerate(get_files(dir), start=8):
+    # index = tpl[0]
+    # file = tpl[1]
+    print(str(index).rjust(3, ' '), file)

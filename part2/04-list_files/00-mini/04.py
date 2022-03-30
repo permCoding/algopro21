@@ -1,9 +1,9 @@
 import sys, time
 
 
-def wait_print(*args, delay=0.15, str_join=''):
+def wait_print(args, delay=0.15, joiner=''):
     """ Замедленный вывод текста в консоли """
-    text = str_join.join(str(x) for x in args)
+    text = joiner.join(x for x in list(args))
     n = len(text)
     for i, char in enumerate(text, start=1):
         if i == n:  # если кол-во символов == текущему счетчику
@@ -14,3 +14,6 @@ def wait_print(*args, delay=0.15, str_join=''):
 
 
 wait_print('Замедленный вывод текста в консоли')
+
+# lst = [1,2,3,4,5]
+# print(*lst)

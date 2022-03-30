@@ -8,7 +8,7 @@ dir = "./images"
 fltr = "*.jpg"
 size = 64, 64
 
-for item in glob.glob("/".join([dir,fltr])):
+for item in glob.glob(path.join(dir,fltr)):
     file, ext = path.splitext(item)
     with Image.open(item) as img:
         img.thumbnail(size)

@@ -1,7 +1,7 @@
 # стандартное решение
 
-from os import listdir, getcwd, walk
-from os.path import isfile, join, isdir
+from os import walk
+from os.path import join
 
 
 def print_files(cur_dir):
@@ -18,5 +18,5 @@ def print_files(cur_dir):
 # current_dir = getcwd()  # абсолютный путь к текущей папке - get current working directory
 current_dir = "."  # относительный путь к текущей папке
 
-print(current_dir)
+# print(current_dir)
 print_files(current_dir)
