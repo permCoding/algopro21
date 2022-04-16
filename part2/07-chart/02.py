@@ -1,11 +1,5 @@
 import tkinter as tk
-import math
-
-
-class Point:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
+from random import randint
 
 
 def axes(width, height, indent, color="blue"):
@@ -17,48 +11,23 @@ def axes(width, height, indent, color="blue"):
     canvas.create_text(width-indent, height//2, text="ось X", anchor=tk.SW, fill="grey")
 
 
-def get_points(function, x_start, x_stop, step=.1):
-    points = []
-    x = x_start
-    while x <= x_stop:
-        points.append(Point(x, function(x)))
-        x += step
-    return points
-
-
-def chart(width, height, indent, points, fil_color='black'):
-    # определим масштаб по X
-    mx = max(abs(points[0].x), abs(points[-1].x))
-    # определим масштаб по Y
-    min_y = min(points, key=lambda p: p.y).y
-    max_y = max(points, key=lambda p: p.y).y
-    my = max(abs(min_y), abs(max_y))
-
-    for i in range(1, len(points)):
-        pa, pb = points[i-1], points[i]  # точки начала и конца отрезка
-        xa = int(pa.x/mx * (width/2-indent))
-        ya = int(pa.y/my * (height/2-indent))
-        xb = int(pb.x/mx * (width/2-indent))
-        yb = int(pb.y/my * (height/2-indent))
-        line_coords = width//2+xa, height//2-ya, width//2+xb, height//2-yb
-        canvas.create_line(line_coords, fill=fil_color, width=2)
-
-
-def function(x):  # функция для построения графика
-    return math.sin(1.5*x)-math.cos(x)
+def set_ovals(width, height, indent, n=50, r=3):
+    for _ in range(n):
+        x = randint(indent, width-indent)
+        y = randint(indent, height-indent)
+        color = "yellow" if x-width//2>0 and y-height//2<0 else "red"
+        canvas.create_oval(x-r,y-r,x+r,y+r,fill=color)
 
 
 width, height, indent = 700, 700, 50  # ширина, высота, отступы по краям
-left, right = -2*math.pi, +2*math.pi  # границы графика по оси X
 
 window = tk.Tk()
-window.title("График функции sin(1.5x)-cos(x)")
+window.title("График функции")
 
 canvas = tk.Canvas(window, width=width, height=height, bg='#fda', cursor="pencil")
 canvas.pack()
 
 axes(width, height, indent)
-points = get_points(function, left, right)
-chart(width, height, indent, points)
+set_ovals(width, height, indent)
 
 window.mainloop()

@@ -7,7 +7,7 @@ class Chart(tk.Tk):
         super().__init__()  # инициализация конструктора базового класса
         
         self.width, self.height, self.indent = width, height, indent
-        self.title("График функции sin(1.5x)-cos(x)")
+        self.title("График функции")
         self.canvas = tk.Canvas(self, width=width, height=height, bg='#fda')
         self.canvas.pack()
 

@@ -14,7 +14,7 @@ https://youtu.be/t3LloJzKiRE
 ---  
 
 Обязательно сравнивайте то, что получилось с онлайн-графиком  
-https://www.kontrolnaya-rabota.ru/s/grafik/issledovanie/  
+https://www.kontrolnaya-rabota.ru/s/grafik/xy/  
 
 1) добавьте в программу сохранение координат точек (x,y) в текстовый файл  
 в столбик по формату: номер точки и её координаты x и y через пробел  

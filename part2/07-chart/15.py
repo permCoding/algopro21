@@ -1,11 +1,6 @@
 import tkinter as tk
 import math
-
-
-class Point:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
+import numpy as np
 
 
 def axes(width, height, indent, color="blue"):
@@ -17,48 +12,48 @@ def axes(width, height, indent, color="blue"):
     canvas.create_text(width-indent, height//2, text="ось X", anchor=tk.SW, fill="grey")
 
 
-def get_points(function, x_start, x_stop, step=.1):
-    points = []
-    x = x_start
-    while x <= x_stop:
-        points.append(Point(x, function(x)))
-        x += step
-    return points
+def get_points(x_start, x_stop, point_amount=101):
+    lst_x = np.linspace(x_start, x_stop, point_amount, endpoint=True)
+    lst_y = np.sin(list(map(lambda x: 1.5*x, lst_x))) - np.cos(lst_x)
+    return list(zip(lst_x, lst_y))
 
 
 def chart(width, height, indent, points, fil_color='black'):
     # определим масштаб по X
-    mx = max(abs(points[0].x), abs(points[-1].x))
+    mx = max(abs(points[0][0]), abs(points[-1][0]))
     # определим масштаб по Y
-    min_y = min(points, key=lambda p: p.y).y
-    max_y = max(points, key=lambda p: p.y).y
+    min_y = min(points, key=lambda p: p[1])[1]
+    max_y = max(points, key=lambda p: p[1])[1]
     my = max(abs(min_y), abs(max_y))
 
     for i in range(1, len(points)):
         pa, pb = points[i-1], points[i]  # точки начала и конца отрезка
-        xa = int(pa.x/mx * (width/2-indent))
-        ya = int(pa.y/my * (height/2-indent))
-        xb = int(pb.x/mx * (width/2-indent))
-        yb = int(pb.y/my * (height/2-indent))
+        xa = int(pa[0]/mx * (width/2-indent))
+        ya = int(pa[1]/my * (height/2-indent))
+        xb = int(pb[0]/mx * (width/2-indent))
+        yb = int(pb[1]/my * (height/2-indent))
         line_coords = width//2+xa, height//2-ya, width//2+xb, height//2-yb
         canvas.create_line(line_coords, fill=fil_color, width=2)
 
 
-def function(x):  # функция для построения графика
-    return math.sin(1.5*x)-math.cos(x)
+def exit_key(event):
+    if event.keysym == 'Escape':
+        exit()
 
 
-width, height, indent = 700, 700, 50  # ширина, высота, отступы по краям
-left, right = -2*math.pi, +2*math.pi  # границы графика по оси X
+width, height, indent = 800, 500, 50  # ширина, высота, отступы по краям
+left, right = -2.5*math.pi, +2.5*math.pi  # границы графика по оси X
 
 window = tk.Tk()
-window.title("График функции sin(1.5x)-cos(x)")
+window.title("График функции sin(x)-cos(x)")
 
 canvas = tk.Canvas(window, width=width, height=height, bg='#fda', cursor="pencil")
 canvas.pack()
 
 axes(width, height, indent)
-points = get_points(function, left, right)
+points = get_points(left, right)
 chart(width, height, indent, points)
+
+window.bind("<Key>", exit_key)  # выйти по клавише Escape
 
 window.mainloop()

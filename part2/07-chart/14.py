@@ -45,7 +45,7 @@ width, height, indent = 800, 500, 50  # ширина, высота, отступ
 left, right = -2.5*math.pi, +2.5*math.pi  # границы графика по оси X
 
 window = tk.Tk()
-window.title("График функции sin(1.5x)-cos(x)")
+window.title("График функции sin(x)")
 
 canvas = tk.Canvas(window, width=width, height=height, bg='#fda', cursor="pencil")
 canvas.pack()
