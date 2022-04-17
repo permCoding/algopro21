@@ -1,7 +1,7 @@
 # одна функция для шифрования XOR
 
 def code(line, key):
-    return ''.join([chr(ord(smb)^key) for smb in line])
+    return ''.join([chr(ord(smb) ^ key) for smb in line])
 
 
 key = 999
