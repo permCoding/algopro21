@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 
 
-def function(x,a,b,c,d):
-    return (a*x**2 + b*x + c) / (x+d)  # разрыв
+def function(x, a, b, c, d):
+    return (a*x**2 + b*x + c) / (x+d)  # разрыв в точке x+d=0
 
 
 def get_data():
@@ -14,7 +14,7 @@ def get_data():
             lst_x.append(pos_x)
             lst_y.append(pos_y)
         except:
-            pass
+            pass  # не включим в список точку разрыва
         pos_x += step
     return (lst_x, lst_y)
 
