@@ -1,4 +1,4 @@
-# Программирование для первого курса 2021-2022 
+# Программирование для первого курса 2021-2022
 
 **БЕЛЯКОВ Андрей Юрьевич**  
 [мой телеграм AndreyPerm](https://t.me/AndreyPerm)  
@@ -9,7 +9,7 @@
 [СЕМЕСТР 1](https://github.com/permCoding/algopro21/blob/master/part1/)  
 [СЕМЕСТР 2](https://github.com/permCoding/algopro21/blob/master/part2/)  
   
---- 
+---
 
 > [Вопросы экзамена](https://github.com/permCoding/algopro21/blob/main/part1/questions.md)  
 >[Рейтинг группы ПИб-1](https://docs.google.com/spreadsheets/d/1FhLiFwJTjjfBdlUZKR8naXp9SjxTs7qLObPK_XH54s0/edit?usp=sharing)  
@@ -37,7 +37,7 @@
 | 1 | 11 | 8 | Зачёт |
 | 2 | 14 | 11 | Экзамен |
 
-```
+```txt
 * как установить в linux pip
 sudo apt update
 sudo apt install python3-pip
@@ -48,7 +48,4 @@ python3 -m pip install --upgrade pip
 python3 -m pip install --upgrade Pillow
 ```
 
----  
-
-
-
+---
