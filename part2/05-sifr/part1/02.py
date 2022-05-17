@@ -2,10 +2,10 @@
 
 line = 'Привед Медвед...'
 
-lst = [ord(smb) for smb in line]
+lst = [ord(smb) for smb in line]  # получить список кодов символов из строки
 
-print(lst)
+print(lst)  # распечатать список кодов символов
 
-result = [chr(item) for item in lst]
+result = [chr(item) for item in lst]  # перевести коды символов в символы
 
-print(''.join(result))
+print(''.join(result))  # список символов объединить в строку и распечатать

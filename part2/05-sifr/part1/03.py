@@ -1,13 +1,14 @@
-# смещаем коды символов для сокрытия
+# зашифруем строку смещением кодов символов
+# способ такой: просто коды символов увеличим на величину key
 
-key = 9
+key = 9  # пусть сдвиг будет +9
 
-line = 'Привед Медвед...'
+line = 'Привед Медвед...'  # исходная строка
 
-lst = [ord(smb)+key for smb in line]
+lst = [ord(smb)+key for smb in line]  # список кодов символов со сдвигом
 
 print(lst)
 
-result = [chr(item) for item in lst]
+result = [chr(item) for item in lst]  # переводим в список символов
 
-print(''.join(result))
+print(''.join(result))  # выводим зашифрованную строку

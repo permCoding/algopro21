@@ -1,4 +1,5 @@
-# одна функция для шифрования XOR
+# применение XOR для шифрования/дешифрования строки
+# одна функция применяется и для шифрования и для дешифрации
 
 def code(line, key):
     return ''.join([chr(ord(smb) ^ key) for smb in line])
@@ -6,9 +7,10 @@ def code(line, key):
 
 key = 999
 line = 'Привед Медвед...'
+print(line)  # исходная строка
 
-print(line)
 line_code = code(line, key)
-print(line_code)
+print(line_code)  # зашифрованная строка
+
 line_decode = code(line_code, key)
-print(line_decode)
+print(line_decode)  # дешифрованная строка
