@@ -11,4 +11,3 @@ for item in lst:
         print(f'файл -> {item}')
     if isdir(join_path):
         print(f'папка => {item}')
-b
