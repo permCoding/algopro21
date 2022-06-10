@@ -19,6 +19,7 @@
 ---
 
 ### Дистанционные занятия тут:  
+https://replit.com/join/ujnjemmjlx-pcoding  
 * [BBB6](https://bbb6.psaa.ru/b/j46-s4j-srl-tn2)  
 * [Zoom](https://us04web.zoom.us/j/6931731236?pwd=T1lNamFoMjJtMHlSbWVKZHF2d3Qwdz09)  
 * [Discord](https://discord.gg/ZK4kgdn)  
